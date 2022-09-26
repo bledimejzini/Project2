@@ -82,8 +82,55 @@
             </td>
 
         </tr>
-</table>
+     </table>
+    <form method="get">
+        <fieldset>
+            <legend><h1>Order Tiramisu</h1></legend>
+            <h3>Choose kind</h3>
 
+            <input type="checkbox" value="Cream" name="Cream" id="Cream">
+            <label for="Cream">Cream</label>
+            <input type="checkbox" value="Chocolate" name="Chocolate" id="Chocolate">
+            <label for="Chocolate">Chocolate</label>
+            <input type="checkbox" value="Vanilla" name="Vanilla" id="Vanilla">
+            <label for="Vanilla">Vanilla</label>
+            <br><br>
+
+            <p><b>Choose size</b></p>
+            <input type="radio" name="Size" value="Small" id="Small" checked>
+            <label for="Small">Small</label>
+            <input type="radio" name="Size" value="Medium" id="Medium" >
+            <label for="Medium">Medium</label>
+            <input type="radio" name="Size" value="Large" id="Large" >
+            <label for="Large">Large</label>
+            <br><br>
+
+            <label for="Drinks">Drinks</label>
+            <select name="Drinks" id="Drinks">
+
+                <option value="Coca Cola">Coca Cola</option>
+                <option value="Fanta">Fanta</option>
+                <option value="RC Cola">RC Cola</option>
+
+             <optgroup label="Fruit drinks"></optgroup>
+                <option value="Apple Juice">Apple Juice</option>
+                <option value="Peach Juice">Peach Juice</option>
+                <option value="Orange Juice">Orange Juice</option>
+            </select>
+            <br><br>
+            <textarea name="message" id="message" placeholder="Message" cols="30" rows="10"></textarea>
+            <br><br>
+
+            <input type="text" name="Frist Name" placeholder="Name" minlength="3" maxlength="20" required>
+            <input type="text" name="Last Name" placeholder="Last Name" minlength="3" maxlength="20"required>
+            <br/><br/>
+
+        <input type="submit" value="Dergo">
+        <input type="reset" value="Reset">
+        
+        </fieldset>
+        
+    </form>
 
 
 
