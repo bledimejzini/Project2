@@ -1,0 +1,16 @@
+body{
+    background-color: rgb(250, 215, 18);
+}
+a{
+    color: rgb(235, 8, 8);
+}
+h2{
+    font-size: 30px;
+}
+.font::first-letter{
+    font-size: 30px;
+}
+h1{
+    font-family: 'Bungee Spice', cursive;
+    text-shadow: 5px 15px 10px rgb(51, 42, 33);
+}
